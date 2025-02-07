@@ -1,0 +1,17 @@
+##Tabla de datos de los principales lenguajes de programación
++----------------+------------+-------------+-------------+
+| Tipo de Dato   | C / C++    | Java        | Python      |
++----------------+------------+-------------+-------------+
+| Enteros        | int, long  | int, long   | int         |
+| Decimales      | float, double | float, double | float    |
+| Booleanos      | bool       | boolean     | bool        |
+| Caracteres     | char       | char        | str (1 letra) |
+| Cadenas        | char, string | String     | str        |
+| Arreglos       | int arr[5] | int[]       | list        |
+| Listas         | vector<int> | ArrayList<> | list        |
+| Diccionarios   | map<string, int> | HashMap<> | dict     |
+| Estructuras    | struct     | class       | class       |
++----------------+------------+-------------+-------------+
+
+
+
