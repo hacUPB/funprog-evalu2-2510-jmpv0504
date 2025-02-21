@@ -1,0 +1,11 @@
+1 variable binaria (b0):
+2^1 = 2 estados posibles (0 y 1).
+
+2 variables binarias (b1, b0):
+2^2 = 4 estados posibles (00, 01, 10, 11).
+
+3 variables binarias (b2, b1, b0):
+2^3 = 8 estados posibles (000, 001, 010, 011, 100, 101, 110, 111).
+
+Por lo tanto con N variables binarias, se pueden representar 2^N estados diferentes.
+

@@ -1,0 +1,6 @@
+En una computadora los numetros las letras las imagenes etc se guardan y se procesan usando unsistema binario dos simbolos 0 y 1 cada 0 o 1 formarn un bit y juntos representan diferenes informaciones. por ejemplo:
+Los numeros se convierten a binarios.
+Las letras se representan con codigos ( la "A" por ejemplo se puede representar como 01001001)
+Las imagenes estan formadas por pixeles y cada pixel tiene diferente color que se guardan comonumeros binarios. 
+El idioma el compurador es el sistema binario y todo lo que se le ingresa lo combina entre 0 y1 para poder procesarlo. 
+
