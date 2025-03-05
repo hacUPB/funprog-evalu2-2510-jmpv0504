@@ -1,0 +1,70 @@
+C
+Enteros
+´int´: Enteros con signo.
+´unsigned´ int: Enteros sin signo.
+short´: Enteros pequeños.
+´long´: Enteros más grandes.
+´long long´: Enteros más grandes que long.
+
+Flotantes (decimales)
+´float´: Número en punto flotante de precisión simple.
+´double´: Número en punto flotante de doble precisión.
+´long double´: Número en punto flotante con mayor precisión.
+
+Booleano:
+´bool´: En C99 y posteriores (requiere incluir <stdbool.h>), puede almacenar true o false.
+
+Java
+
+Enteros
+´byte´: Entero.
+´short´: Entero de 16 bits.
+´int´: Entero de 32 bits.
+´long´: Entero de 64 bits.
+
+Flotantes
+´float´: Número de punto flotante de precisión simple.
+´double´: Número de punto flotante de doble precisión.
+
+Carácter
+´char´: Almacena un solo carácter Unicode.
+
+Python
+Enteros
+´int´: Tipo de entero(sin límite de tamaño).
+
+Flotantes
+´float´: Número de punto flotante.
+
+Carácter
+´str´: Cadena de texto.
+
+Booleano
+´bool´: Almacena True o False.
+
+Aquí tienes la tabla más condensada y organizada:
+
+Ejercicio de cálculo de espacio en memoria
+
+Datos a almacenar:
+Identificador (int): 4 bytes
+Temperatura (float): 4 bytes
+Valor lógico (bool): 1 byte
+Texto (10 caracteres): 10 bytes
+
+4+4+1+10=19 bytes  
+
+Intervalos durante 24 horas 86400 segundos/10 = 8640 intervalos
+
+Memoria total:
+19 bytes × 8640 = 164160 bytes
+
+Conversión a KB:
+164160/1024 = 160.5 KB
+
+Se requieren 160.5 KB de memoria.
+
+En esta actividad, aprendí que almacenar información en una computadora implica
+considerar cuánto espacio en memoria ocupan los diferentes tipos de datos.
+Cada tipo de dato (como números, texto o valores booleanos) tiene un tamaño específico que varía
+según el tipo de dato y el lenguaje de programación.

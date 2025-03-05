@@ -1,0 +1,48 @@
+Óvalo (Inicio/Fin): Indica el inicio o fin del proceso.
+Rectángulo (Proceso): Representa una acción u operación.
+Diamante (Decisión): Denota una decisión (sí/no o verdadero/falso).
+Paralelogramo (Entrada/Salida): Muestra la entrada o salida de datos.
+
+Parte 1: Identificar Algoritmos
+
+Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
+
+1. Una página web. //No representa un algoritmo
+2. Una receta para hacer un pastel, donde se indican ingredientes y pasos a seguir. //Sí representa un algoritmo
+3. "Piensa en un número y multiplícalo por otro". //No representa un algoritmo completo
+4. Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro. //Sí representa un algoritmo
+5. Una lista de compras organizada en orden alfabético //No representa un algoritmo
+
+Parte 2: Variables y Constantes
+
+Indica si las siguientes afirmaciones describen una variable o una constante:
+
+1. El valor de la gravedad en la Tierra, 9.8 m/s². //Constante
+2. La edad de una persona calculada en base al año actual y su año de nacimiento. // Variable.
+3. La cantidad de dinero en una cuenta bancaria. //Variable
+4. La velocidad de la luz en el vacío, 299,792,458 m/s. //Constante
+5. El radio de un círculo. //Variable
+
+ Parte 3: Características de los Algoritmos
+
+Responde si los siguientes enunciados cumplen con las características de un algoritmo. Justifica la respuesta:
+
+1. Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños. //No cumple. Falta claridad en los pasos y condiciones
+2. Suma los números ingresados y muestra el resultado. //Cumple. Secuencia clara y fin definida.
+3. Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura. //Cumple. Pasos definidos y fin claro.
+4. El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1. //Cumple. Secuencia clara con inicio y fin definidos.
+
+ Parte 4: Comprensión de Herramientas
+
+Indica si las siguientes afirmaciones son ciertas o falsas respecto al pseudocódigo y diagramas de flujo:
+
+1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas. //Falsa. El pseudocódigo no utiliza símbolos estándar
+2. Los diagramas de flujo son una representación gráfica de un algoritmo. //Cierta. Los diagramas de flujo representan visualmente un algoritmo utilizando símbolos gráficos
+3. El pseudocódigo debe estar escrito en un lenguaje de programación específico. //Falsa. El pseudocódigo no está escrito en un lenguaje de programación específico
+4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos. //Cierta. Un diagrama de flujo debe tener un inicio y un fin claramente definidos para ser completo y lógico.
+
+ Parte 5: Estructuras de Control
+
+Describe para qué sirven las estructuras de control. Redacta dos ejemplos, uno de tu vida diaria, es decir cuando tienes que tomar decisiones en tus actividades diarias y oto ejemplo en el que se tengan que utilizar cálculos matemáticos para tomar una u otra decisión.
+
+//Las estructuras de control son herramientas fundamentales en los algoritmos y programas, ya que permiten dirigir el flujo de ejecución según condiciones específicas. Son las que permiten tomar decisiones, repetir acciones o ejecutar instrucciones de manera diferente dependiendo de ciertas condiciones.
