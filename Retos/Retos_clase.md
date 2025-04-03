@@ -7,8 +7,10 @@ inicio
     leer x2, y2  
     Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)  
     mostrar distancia " la distancia entre los puntos es: ",D  
-Fin  
-``` 
+Fin
+
+```
+![imagenes](Imagenes/imagen1.jpeg)
 2.  
 ```
 inicio  
@@ -32,7 +34,7 @@ Inicio
     Mostrar "La hipotenusa del triángulo es: ", C
 Fin
 ``` 
-
+![imagenes](Imagenes/imagen3.jpeg)
 
 4.
  ```
@@ -63,7 +65,7 @@ Fin
         Escribir "La edad actual de la persona es: ", edad
    fin
 ``` 
-![imagenes](Imagenes/imagen(3).jpeg
+![imagenes](Imagenes/imagen4.jpeg)
 
 5.
 ```
@@ -85,7 +87,7 @@ Inicio
         escribir "El sueldo semanal es: ", sueldo
     fin
 ``` 
-![imagenes](Imagenes/imagen(4).jpeg
+![imagenes](Imagenes/imagen(5).jpeg)
 6. 
 ```
 nicio
@@ -115,7 +117,7 @@ nicio
     escribir "Cantidad de números mayores a cero: ", mayores
 fin
 ``` 
-![imagenes](Imagenes/imagen(6).jpeg
+![imagenes](Imagenes/imagen4.jpeg)
 7.  
 ```
 Inicio
@@ -133,7 +135,7 @@ Inicio
     Imprimir "Ahorro total en un año en pesos: ", ahorro_total / 100, " pesos"
 fin
 ``` 
-![imagenes](Imagenes/imagen(7).jpeg
+![imagenes](Imagenes/imagen(7).jpeg)
 8.
 ```
 Inicio
@@ -165,7 +167,7 @@ Inicio
 
 fin
 ``` 
-![imagenes](Imagenes/imagen(5).jpeg
+![imagenes](Imagenes/imagen(8).jpeg)
 
 
 9.
@@ -190,7 +192,7 @@ fin
     Escribir "La aproximación de e^", x, " con ", n, " términos es: ", ex
     fin
 ```
-![imagenes](Imagenes/imagen.png
+![imagenes](Imagenes/imagen(8).jpeg)
  
 10.
 ```
