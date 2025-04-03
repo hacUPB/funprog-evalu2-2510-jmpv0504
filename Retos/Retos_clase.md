@@ -1,19 +1,19 @@
 1.
 inicio
-    ingresar "puntos x1, y1"
-    leer x1, x2
-    ingresar "puntos x2, y2"
-    leer x2, y2
-    Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)
-    mostrar distancia " la distancia entre los puntos es: ",D
-Fin
+    ingresar "puntos x1, y1"  
+    leer x1, x2  
+    ingresar "puntos x2, y2"  
+    leer x2, y2  
+    Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)  
+    mostrar distancia " la distancia entre los puntos es: ",D  
+Fin  
 
-2.
-inicio
-    monstrar "Ingrese la cantidad necesara de tela en metros"
-    leer metros
-    pulgada=(metro/0.0254)
-    mostrar " La cantidad de tela en pulgadas es: ", pulgada
+2.  
+inicio  
+    monstrar "Ingrese la cantidad necesara de tela en metros"  
+    leer metros  
+    pulgada=(metro/0.0254)  
+    mostrar " La cantidad de tela en pulgadas es: ", pulgada  
 fin
 [imagenes](/Imagenes/imagen2.jpeg)
 
