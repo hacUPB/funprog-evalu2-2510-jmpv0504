@@ -1,4 +1,5 @@
 1.
+```
 inicio
     ingresar "puntos x1, y1"  
     leer x1, x2  
@@ -7,18 +8,22 @@ inicio
     Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)  
     mostrar distancia " la distancia entre los puntos es: ",D  
 Fin  
-
+``` 
 2.  
+```
 inicio  
     monstrar "Ingrese la cantidad necesara de tela en metros"  
     leer metros  
     pulgada=(metro/0.0254)  
     mostrar " La cantidad de tela en pulgadas es: ", pulgada  
 fin
-[imagenes](/Imagenes/imagen2.jpeg)
+``` 
+![imagenes](Imagenes/imagen2.jpeg)
 
 
-3.Inicio
+3.
+```
+Inicio
     Mostrar "Ingrese los valores del cateto A"
     Leer A
     Mostrar "Ingrese los valores del cateto B"
@@ -26,9 +31,12 @@ fin
     C = sqrt(A^2 + B^2)
     Mostrar "La hipotenusa del triángulo es: ", C
 Fin
+``` 
 
 
-4. Inicio
+4.
+ ```
+   Inicio
     mostrar "Año de nacimiento y año actual"
     ingresar "Año de nacimiento: "
     Leer Año de nacimiento 
@@ -53,10 +61,13 @@ Fin
     Sino
         Escribir "Ya ha celebrado su cumpleaños este año."
         Escribir "La edad actual de la persona es: ", edad
-fin
-[imagenes](/Imagenes/imagen%20(3).jpeg
+   fin
+``` 
+![imagenes](Imagenes/imagen(3).jpeg
 
-5. Inicio 
+5.
+```
+Inicio 
     ingrese "Horas trabajadas a la semana: "
     leer horas_trabajadas 
     ingrese "Pago por hora: "
@@ -72,9 +83,12 @@ fin
             sueldo = (40 * pago_por_hora) + (5 * (2 * pago_por_hora)) + ((horas_trabajadas - 45) * (3 * pago_por_hora))
         FIN Si
         escribir "El sueldo semanal es: ", sueldo
-    fin 
-[imagenes](/Imagenes/imagen%20(4).jpeg
-6. Inicio
+    fin
+``` 
+![imagenes](Imagenes/imagen(4).jpeg
+6. 
+```
+nicio
     Describir N, cantidad, ceros, menores, mayores
     ceros = 0
     menores = 0
@@ -100,8 +114,11 @@ fin
     escribir "Cantidad de números menores a cero: ", menores
     escribir "Cantidad de números mayores a cero: ", mayores
 fin
-[imagenes](/Imagenes/imagen%20(6).jpeg
-7. Inicio
+``` 
+![imagenes](Imagenes/imagen(6).jpeg
+7.  
+```
+Inicio
     Definir ahorro_diario como 0
     Definir ahorro_total como 0
 
@@ -115,8 +132,11 @@ fin
     Imprimir "Ahorro total en un año: ", ahorro_total, " centavos"
     Imprimir "Ahorro total en un año en pesos: ", ahorro_total / 100, " pesos"
 fin
-[imagenes](/Imagenes/imagen%20(7).jpeg
-8. Inicio
+``` 
+![imagenes](Imagenes/imagen(7).jpeg
+8.
+```
+Inicio
     Definir N, precio, descuento, precio_final, total_pagar
     total_pagar = 0
 
@@ -142,10 +162,15 @@ fin
     Fin Para
 
     Escribir "El total a pagar por todos los artículos es: $", total_pagar
-fin
-[imagenes](/Imagenes/imagen%20(5).jpeg
 
-9. Inicio 
+fin
+``` 
+![imagenes](Imagenes/imagen(5).jpeg
+
+
+9.
+ ```
+    Inicio 
     Definir x, n, termino, factorial, ex como números
     ex = 1   
     factorial = 1   
@@ -163,10 +188,13 @@ fin
     Fin Para
 
     Escribir "La aproximación de e^", x, " con ", n, " términos es: ", ex
-fin 
-[imagenes](/Imagenes/imagen.png
-
-10. Inicio 
+    fin
+```
+![imagenes](Imagenes/imagen.png
+ 
+10.
+```
+    Inicio 
         Definir x, n, término, factorial, sin_x, j como números
     sin_x = 0   
     factorial = 1 
@@ -193,9 +221,9 @@ fin
     Fin Para
 
     Escribir "La aproximación de sin(", x, ") con ", n, " términos es: ", sin_x
-fin 
+    fin 
 
-
+``` 
 Actividad 4
 ¿Por qué crees que el pseudocódigo es útil antes de escribir un programa en C?
 
@@ -204,6 +232,8 @@ ahorro de tiempo y organización del código.
 
 Toma un pseudocódigo de un ejercicio anterior o escribe tu propio pseudocódigo, similar al mostrado en el ejemplo de arriba.
 
+
+```
 Inicio
     Mostrar "Ingrese la base del triángulo:"
     Leer base
@@ -214,13 +244,14 @@ Inicio
 
     Mostrar "El área del triángulo es:", area
 Fin
-
+``` 
 ¿Por qué es importante declarar el tipo de variable (int, float, etc.) antes de usarla en C?
 
 /Declarar el tipo de variable en C es importante porque define el uso de memoria, evita errores.
 Cada tipo (int, float, double, etc.) ocupa un espacio específico en la memoria y determina cómo se almacenan y manipulan los datos.
 
 
+```
 Inicio
     Mostrar "Ingrese la cantidad de calificaciones:"
     Leer n
@@ -239,8 +270,9 @@ Inicio
         Mostrar "El promedio de las calificaciones es:", promedio
     Fin Si
 Fin
-
+``` 
 codigo en c 
+``` 
 #include <stdio.h>
 
 int main() {
@@ -266,7 +298,7 @@ int main() {
 
     return 0;
 }
-
+``` 
 ¿Por qué es importante comentar el código, aunque sea breve y conciso?
 Comentar el código es importante porque ayuda a entender el código, facilitando la comprensión para 
 otros o para uno en el futuro, explica el "por qué" detrás del código, 
