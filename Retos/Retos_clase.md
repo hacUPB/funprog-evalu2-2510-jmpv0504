@@ -1,142 +1,236 @@
-1.
-```
-inicio
-    ingresar "puntos x1, y1"  
-    leer x1, x2  
-    ingresar "puntos x2, y2"  
-    leer x2, y2  
-    Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)  
-    mostrar distancia " la distancia entre los puntos es: ",D  
-Fin
+1. 
+
+Este ejercicio calcula la distancia entre dos puntos en el plano cartesiano usando la fórmula del Teorema de Pitágoras. A partir de las coordenadas de entrada (x1, y1) y (x2, y2), se obtiene como salida la distancia D
+
+| Tipo de Variable | Nombre de la Variable | Descripción                            |
+|------------------|------------------------|----------------------------------------|
+| Entrada          | `x1`                   | Coordenada X del primer punto          |
+| Entrada          | `y1`                   | Coordenada Y del primer punto          |
+| Entrada          | `x2`                   | Coordenada X del segundo punto         |
+| Entrada          | `y2`                   | Coordenada Y del segundo punto         |
+| Proceso          | `D`                    | Distancia calculada entre los puntos   |
 
 ```
-![imagenes](Imagenes/imagen1.jpeg)
-2.  
-```
-inicio  
-    monstrar "Ingrese la cantidad necesara de tela en metros"  
-    leer metros  
-    pulgada=(metro/0.0254)  
-    mostrar " La cantidad de tela en pulgadas es: ", pulgada  
+inicio
+    mostrar "Ingrese la coordenada x1:"
+    leer x1
+    mostrar "Ingrese la coordenada y1:"
+    leer y1
+    mostrar "Ingrese la coordenada x2:"
+    leer x2
+    mostrar "Ingrese la coordenada y2:"
+    leer y2
+
+    D = raiz((x2 - x1)^2 + (y2 - y1)^2)
+
+    mostrar "La distancia es: ",D "entre los puntos "
 fin
+```
+![imagenes](Imagenes/imagen1.jpeg)
+
+2.  
+Se necesita convertir una medida de tela de metros a pulgadas. El algoritmo debe realizar esta conversión utilizando el factor 1 pulgada = 0.0254 metros.
+
+| **Tipo**    | **Variable** | **Descripción**                            |
+|-------------|--------------|--------------------------------------------|
+| Entrada | metros       | Medida de tela en metros . |
+| Salida  | pulgada      | Medida de tela en pulgadas . |
+| Constante| 0.0254      | Factor de conversión de metros a pulgadas. |
+
+```
+inicio
+    mostrar "Ingrese la cantidad necesaria de tela en metros:"
+    leer metros
+    pulgadas = metros / 0.0254
+    mostrar "La cantidad de tela en pulgadas es: ", pulgadas
+fin
+
 ``` 
 ![imagenes](Imagenes/imagen2.jpeg)
 
-
 3.
+El algoritmo pide los valores de los catetos (A y B), aplica la fórmula de Pitágoras y calcula la hipotenusa (C) como la raíz cuadrada de la suma de los cuadrados de los catetos y muestra el resultado.
+
+| **Tipo**    | **Variable** | **Descripción**                                              |
+|-------------|--------------|--------------------------------------------------------------|
+| Entrada     | A            | Valor del cateto A del triángulo rectángulo                 |
+| Entrada     | B            | Valor del cateto B del triángulo rectángulo                 |
+| Proceso     | C            | Hipotenusa, calculada como la raíz cuadrada de A² + B²      |
+| Salida      | C            | Longitud de la hipotenusa    |
+
 ```
 Inicio
-    Mostrar "Ingrese los valores del cateto A"
+    Mostrar "Ingrese el valor del cateto A"
     Leer A
-    Mostrar "Ingrese los valores del cateto B"
+    Mostrar "Ingrese el valor del cateto B"
     Leer B
-    C = sqrt(A^2 + B^2)
+    C = raiz(A^2 + B^2)
     Mostrar "La hipotenusa del triángulo es: ", C
 Fin
 ``` 
 ![imagenes](Imagenes/imagen3.jpeg)
 
-4.
+4.     
+Se debe calcular la edad de una persona a partir de su fecha de nacimiento y verificar si ya cumplió años este año, si aún no, o si hoy es su cumpleaños.
+
+| **Tipo**    | **Variable**   | **Descripción**                                        |
+|-------------|----------------|--------------------------------------------------------|
+| Entrada | diaNac         | Día de nacimiento                                     |
+| Entrada | mesNac         | Mes de nacimiento                                     |
+| Entrada | añoNac        | Año de nacimiento                                     |
+| Entrada | diaActual      | Día actual                                            |
+| Entrada | mesActual      | Mes actual                                            |
+| Entrada | añoActual     | Año actual                                            |
+| Proceso | edad           | Edad calculada en años                                |
+| Salida  | mensaje        | Mensaje indicando si ya cumplió, no ha cumplido o es su cumpleaños |
+
  ```
-   Inicio
-    mostrar "Año de nacimiento y año actual"
-    ingresar "Año de nacimiento: "
-    Leer Año de nacimiento 
-    ingrese "Mes de nacimeinto: " 
-    leer Mes de nacimiento 
-    ingrese "Dia de nacimiento: "
-    leer Dia de naciemiento 
+   inicio
+    mostrar "Ingrese el día de nacimiento:"
+    leer diaNac
+    mostrar "Ingrese el mes de nacimiento:"
+    leer mesNac
+    mostrar "Ingrese el año de nacimiento:"
+    leer añoNac
 
-    Ingresar "Año actual"
-    leer año actual 
-    ingresar "Dia actual: "
-    leer dia actual 
-    ingresar "Mes actual: "
-    leer mes actual 
+    mostrar "Ingrese el día actual:"
+    leer diaActual
+    mostrar "Ingrese el mes actual:"
+    leer mesActual
+    mostrar "Ingrese el año actual:"
+    leer añoActual
 
-    edad = año_actual - año_nacimiento
-        Si (mes_actual < mes_nacimiento) o (mes_actual = mes_nacimiento y dia_actual < dia_nacimiento) Entonces
+    edad = añoActual - añoNac
+
+    si (mesActual < mesNac) o (mesActual = mesNac y diaActual < diaNac) entonces
         edad = edad - 1
-        mostrar "Usted no ha cumplido años 
-        Si (mes_actual = mes_nacimiento y dia_actual = dia_nacimiento) Entonces
-        Escribir "Feliz Cumpleaños"
-    Sino
-        Escribir "Ya ha celebrado su cumpleaños este año."
-        Escribir "La edad actual de la persona es: ", edad
-   fin
-``` 
-![imagenes](Imagenes/imagen4.jpeg)
+        mostrar "Aún no ha cumplido años este año."
+    sino si (mesActual = mesNac y diaActual = diaNac) entonces
+        mostrar "¡Hoy es su cumpleaños!"
+    sino
+        mostrar "Ya cumplió años este año."
+    fin si
 
+    mostrar "Su edad actual es: ", edad
+fin
+``` 
 5.
-```
-Inicio 
-    ingrese "Horas trabajadas a la semana: "
-    leer horas_trabajadas 
-    ingrese "Pago por hora: "
-    leer pago_por_hora 
-    si horas_trabajadas > 50 
-    mostrar "No se permite trabajar más de 50 horas."
-    Si horas_trabajadas <= 40 Eentonces
-            sueldo = horas_trabajadas * pago_por_hora
-    SI horas_trabajadas <= 45 ENTONCES
-            sueldo = (40 * pago_por_hora) + ((horas_trabajadas - 40) * (2 * pago_por_hora))
+Se debe calcular el sueldo semanal de un trabajador según las horas que trabajó y el pago por hora. Las horas extra entre la 41 y la 45 se pagan al doble, y de la 46 a la 50 al triple. No se permite trabajar más de 50 horas.
 
-    sino Si horas_trabajadas <= 50 ENTONCES
-            sueldo = (40 * pago_por_hora) + (5 * (2 * pago_por_hora)) + ((horas_trabajadas - 45) * (3 * pago_por_hora))
-        FIN Si
-        escribir "El sueldo semanal es: ", sueldo
-    fin
-``` 
-![imagenes](Imagenes/imagen(5).jpeg)
-6. 
+
+| Tipo        | Variable      | Descripción                                      |
+|-------------|---------------|--------------------------------------------------|
+| Entrada     | horasTrabajadas | Total de horas trabajadas por el empleado       |
+| Entrada     | pagoHora      | Monto que se paga por cada hora normal           |
+| Proceso     | sueldo        | Sueldo total calculado                          |
+| Proceso     | horasNormales | Horas trabajadas hasta la hora 40               |
+| Proceso     | horasDobles   | Horas entre 41 y 45                       |
+| Proceso     | horasTriples  | Horas entre 46 y 50                       |
+| Constante   | 40, 45, 50    | Límites para aplicar las tarifas dobles y triples |
+
 ```
-nicio
-    Describir N, cantidad, ceros, menores, mayores
-    ceros = 0
-    menores = 0
-    mayores = 0
- 
-    ingrese "Ingrese la cantidad de números a evaluar (N): "
+inicio
+    mostrar "Ingrese la cantidad de horas trabajadas:"
+    leer horasTrabajadas
+
+    si horasTrabajadas > 50 entonces
+        mostrar "Error: No se permite trabajar más de 50 horas."
+    sino
+        mostrar "Ingrese el pago por hora:"
+        leer pagoHora
+
+        si horasTrabajadas <= 40 entonces
+            sueldo = horasTrabajadas * pagoHora
+        sino si horasTrabajadas <= 45 entonces
+            horasNormales = 40
+            horasDobles = horasTrabajadas - 40
+            sueldo = (horasNormales * pagoHora) + (horasDobles * pagoHora * 2)
+        sino
+            horasNormales = 40
+            horasDobles = 5
+            horasTriples = horasTrabajadas - 45
+            sueldo = (horasNormales * pagoHora) + (horasDobles * pagoHora * 2) + (horasTriples * pagoHora * 3)
+        fin si
+
+        mostrar "El sueldo semanal es: ", sueldo
+    fin si
+fin
+``` 
+6.
+
+Se desea contar, de un total de N números, cuántos son mayores que cero, menores que cero, y cuántos son exactamente cero.
+
+| Tipo      | Variable      | Descripción                                      |
+|-----------|----------------|--------------------------------------------------|
+| Entrada   | N              | Cantidad total de números a evaluar              |
+| Entrada   | num            | Valor actual leído en cada iteración             |
+| Proceso   | positivos      | Contador de números mayores a cero               |
+| Proceso   | negativos      | Contador de números menores a cero               |
+| Proceso   | ceros          | Contador de números iguales a cero               |
+
+```
+inicio
+    mostrar "Ingrese la cantidad de números a evaluar:"
     leer N
- 
-    para x desde 1 hasta N hacer
-        ESCRIBIR "Ingrese el número ", x, ": "
-        leer cantidad
- 
-        Si cantidad = 0 ENTONCES
+
+    positivos = 0
+    negativos = 0
+    ceros = 0
+
+    para i = 1 hasta N hacer
+        mostrar "Ingrese un número:"
+        leer num
+
+        si num > 0 entonces
+            positivos = positivos + 1
+        sino si num < 0 entonces
+            negativos = negativos + 1
+        sino
             ceros = ceros + 1
-        SI cantidad < 0 ENTONCES
-            menores = menores + 1
-        SINO
-            mayores = mayores + 1
-        Fin Si
-    fin para 
- 
-    escribir "Cantidad de ceros: ", ceros
-    escribir "Cantidad de números menores a cero: ", menores
-    escribir "Cantidad de números mayores a cero: ", mayores
+        fin si
+    fin para
+
+    mostrar "Cantidad de números positivos: ", positivos
+    mostrar "Cantidad de números negativos: ", negativos
+    mostrar "Cantidad de ceros: ", ceros
 fin
 ``` 
-![imagenes](Imagenes/imagen4.jpeg)
-7.  
+7.
+Una persona ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el tres de enero, y así sucesivamente, triplicando el ahorro cada día. Se requiere calcular cuánto ahorrará diariamente y en total durante un año.
+
+| Tipo      | Variable       | Descripción                                        |
+|-----------|----------------|----------------------------------------------------|
+| Entrada   | dias           | Total de días a considerar (365 para un año)       |
+| Entrada   | ahorroDiario   | Ahorro diario en centavos                          |
+| Proceso   | ahorroTotal    | Ahorro total acumulado durante el año              |
+| Constante | 3              | Ahorro inicial en centavos (3¢ el primer día)       |
+| Constante | 365            | Días en un año                                     |
+
 ```
-Inicio
-    Definir ahorro_diario como 0
-    Definir ahorro_total como 0
+inicio
+    ahorroTotal = 0
+    ahorroDiario = 3  // Ahorro en centavos del primer día
 
-    Para día desde 1 hasta 365 hacer
-        ahorro_diario = 3^día  // Cálculo del ahorro del día
-        ahorro_total = ahorro_total + ahorro_diario 
+    para dia = 1 hasta 365 hacer
+        ahorroTotal = ahorroTotal + ahorroDiario
+        mostrar "Día ", dia, ": ", ahorroDiario, " centavos"
+        ahorroDiario = ahorroDiario * 3  // Triplicar el ahorro diario
+    fin para
 
-        Imprimir "Día ", día, ": ahorró ", ahorro_diario, " centavos"
-    Fin Para
-
-    Imprimir "Ahorro total en un año: ", ahorro_total, " centavos"
-    Imprimir "Ahorro total en un año en pesos: ", ahorro_total / 100, " pesos"
+    mostrar "Ahorro total en el año: ", ahorroTotal, " centavos"
 fin
 ``` 
-![imagenes](Imagenes/imagen(7).jpeg)
 8.
+Se desea calcular el costo total de N artículos, aplicando descuentos dependiendo de su precio. Si el precio de un artículo es mayor o igual a $200, se aplica un descuento del 15%; si el precio está entre $100 y $199, el descuento es del 12%; y si el precio es menor a $100, el descuento es del 10%. Se debe calcular el costo con descuento de cada artículo y finalmente determinar el total a pagar por todos los artículos adquiridos.
+
+| Tipo      | Variable       | Descripción                                        |
+|-----------|----------------|----------------------------------------------------|
+| Entrada   | N              | Número de artículos que la persona va a comprar    |
+| Entrada   | precio         | Precio de cada artículo                            |
+| Proceso   | descuento      | Descuento aplicado al artículo                     |
+| Proceso   | precioFinal    | Precio final después de aplicar el descuento       |
+| Proceso   | total          | Costo total acumulado de todos los artículos       |
+
 ```
 Inicio
     Definir N, precio, descuento, precio_final, total_pagar
@@ -167,64 +261,81 @@ Inicio
 
 fin
 ``` 
-![imagenes](Imagenes/imagen(8).jpeg)
-
-
 9.
- ```
-    Inicio 
-    Definir x, n, termino, factorial, ex como números
-    ex = 1   
-    factorial = 1   
-    Escribir "Ingrese el valor de x:"
-    Leer x
+Se desea calcular el valor aproximado de la función exponencial, utilizando su desarrollo en serie de Taylor
+$𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$**
 
-    Escribir "Ingrese la cantidad de términos para la aproximación:"
+| **Tipo**   | **Variable** | **Descripción**                                 |
+|------------|--------------|-------------------------------------------------|
+| Entrada    | `x`          | Exponente al que se desea elevar el número `e` |
+| Entrada    | `n`          | Número de términos de la serie a calcular       |
+| Proceso    | `i`          | Contador del ciclo para términos de la serie    |
+| Proceso    | `termino`    | Valor de cada término de la serie               |
+| Proceso    | `factorial`  | Factorial acumulado en cada iteración           |
+| Proceso    | `resultado`  | Suma acumulada de los términos de la serie      |
+| Salida     | `resultado`  | Valor aproximado de `e^x`                       |
+
+ ```
+    Inicio
+    Mostrar "Ingrese el valor de x:"
+    Leer x
+    Mostrar "Ingrese el número de términos a calcular:"
     Leer n
 
-    Para i desde 1 hasta n-1 hacer
-        factorial = factorial * i  
-        termino = (x^i) / factorial  
-        ex = ex + termino  
+    resultado = 1
+    factorial = 1
 
+    Para i = 1 Hasta n Hacer
+        factorial = factorial * i
+        termino = (x^i) / factorial
+        resultado = resultado + termino
     Fin Para
 
-    Escribir "La aproximación de e^", x, " con ", n, " términos es: ", ex
-    fin
+    Mostrar "El valor aproximado de e^x es:", resultado
+Fin
 ```
-![imagenes](Imagenes/imagen(8).jpeg)
- 
 10.
+Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación: 
+$Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$
+
+| **Tipo**   | **Variable** | **Descripción**                                     |
+|------------|--------------|-----------------------------------------------------|
+| Entrada    | `x`          | Ángulo en radianes                                  |
+| Entrada    | `n`          | Cantidad de términos a considerar en la serie       |
+| Proceso    | `i`          | Contador del ciclo                                  |
+| Proceso    | `termino`    | Valor del término actual en la serie                |
+| Proceso    | `factorial`  | Factorial del exponente impar correspondiente       |
+| Proceso    | `potencia`   | Potencia de `x` correspondiente al término actual   |
+| Proceso    | `signo`      | Alterna entre 1 y -1 para sumar/restar términos     |
+| Proceso    | `resultado`  | Acumulador del valor aproximado de `sen(x)`         |
+| Salida     | `resultado`  | Valor aproximado del seno del ángulo ingresado      |
+
 ```
-    Inicio 
-        Definir x, n, término, factorial, sin_x, j como números
-    sin_x = 0   
-    factorial = 1 
-
-    Escribir "Ingrese el valor de x en radianes:"
+ Inicio
+    Mostrar "Ingrese el valor del ángulo en radianes:"
     Leer x
-
-    Escribir "Ingrese la cantidad de términos para la aproximación:"
+    Mostrar "Ingrese la cantidad de términos a calcular:"
     Leer n
 
-    Para i desde 0 hasta n-1 hacer
-        exponente = 2*i + 1   0
-        factorial = 1   
-        
+    resultado = 0
+    signo = 1
+
+    Para i = 0 Hasta n-1 Hacer
+        exponente = 2*i + 1
+        potencia = x^exponente
+
+        factorial = 1
+        Para j = 1 Hasta exponente Hacer
             factorial = factorial * j
         Fin Para
 
-        término = (x^exponente) 
-
-        Si i mod 2 = 0 Entonces
-            sin_x = sin_x + término
-        Sino
-            sin_x ← sin_x - término
+        termino = signo * (potencia / factorial)
+        resultado = resultado + termino
+        signo = signo * (-1)
     Fin Para
 
-    Escribir "La aproximación de sin(", x, ") con ", n, " términos es: ", sin_x
-    fin 
-
+    Mostrar "El valor aproximado de sen(x) es:", resultado
+Fin
 ``` 
 Actividad 4
 ¿Por qué crees que el pseudocódigo es útil antes de escribir un programa en C?
