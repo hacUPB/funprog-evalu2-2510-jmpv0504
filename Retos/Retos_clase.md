@@ -7,6 +7,7 @@ inicio
     Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)
     mostrar distancia " la distancia entre los puntos es: ",D
 Fin
+[imagenes](/Imagenes/D1.jpeg)
 
 2.
 inicio
@@ -15,7 +16,7 @@ inicio
     pulgada=(metro/0.0254)
     mostrar " La cantidad de tela en pulgadas es: ", pulgada
 fin
-[imagenes](/Imagenes/imagen2.jpeg)
+[imagenes](/Imagenes/D2.jpeg)
 
 
 3.Inicio
@@ -26,6 +27,7 @@ fin
     C = sqrt(A^2 + B^2)
     Mostrar "La hipotenusa del triángulo es: ", C
 Fin
+[imagenes](/Imagenes/D3.jpeg)
 
 
 4. Inicio
