@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-1.
-inicio
-    ingresar "puntos x1, y1"
-    leer x1, x2
-    ingresar "puntos x2, y2"
-    leer x2, y2
-    Calcular D = sqrt((X2 - X1)^2 + (Y2 - Y1)^2)
-    mostrar distancia " la distancia entre los puntos es: ",D
-Fin
-[imagenes](/Imagenes/D1.jpeg)
-=======
 1. 
 Este ejercicio calcula la distancia entre dos puntos en el plano cartesiano usando la fórmula del Teorema de Pitágoras. A partir de las coordenadas de entrada (x1, y1) y (x2, y2), se obtiene como salida la distancia D
 
